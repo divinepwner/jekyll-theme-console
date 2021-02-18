@@ -174,9 +174,14 @@ main img {
     border-radius:3px !important;
 }
 
-pre.highlight {
+pre.highlight,code.highlighter-rouge {
     padding: 16px;
     margin-bottom: 25px;
     border: var(--border);
+}
+
+code.highlighter-rouge {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
