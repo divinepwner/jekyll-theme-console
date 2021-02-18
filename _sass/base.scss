@@ -131,3 +131,44 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+body {
+    background-color:#fff;
+}
+.container {
+    max-width: 1170px;
+}
+
+.menu ul li {
+    background-color:#777;
+    padding:.2em .6em .3em;
+    border-radius:3.1px;
+}
+.menu ul li a {
+    color:white;
+    font-weight:bold;
+}
+.menu ul li a:hover{
+    background:none;
+    color:white;
+}
+
+main ul:nth-child(1) li {
+    font-size:24px
+}
+main ul:nth-child(1) li a {
+    text-decoration:none;
+}
+main ul:nth-child(1) li a:hover {
+    background:none;
+}
+main ul:nth-child(1) li a:hover::after {
+    content:' << '
+}
+
+main img {
+    max-width:100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius:3px !important;
+}
