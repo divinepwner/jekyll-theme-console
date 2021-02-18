@@ -160,6 +160,7 @@ main ul:nth-child(1) li a {
 }
 main ul:nth-child(1) li a:hover {
     background:none;
+    color:black;
 }
 main ul:nth-child(1) li a:hover::after {
     content:' << '
